@@ -63,3 +63,15 @@ az network nsg delete -g $RG -n xfusion-nsg
 ---
 
 **Security note:** Avoid allowing SSH from `0.0.0.0/0` in production. Restrict to your IP or use a bastion host.
+
+## Resources & Links ✅
+- YouTube playlist: https://www.youtube.com/@TechCareerHubs
+- GitHub (repo, scripts): https://github.com/Consultantsrihari/100-Days-KodeKloud-MultiCloud-AWS-Azure-Hands-on-tasks-day1-day100
+- LinkedIn: https://www.linkedin.com/in/venkatasrihari/
+- Instagram: https://www.instagram.com/techcareerhubs/?hl=en
+- Website: https://techcareerhubs.com/
+- Telegram: https://t.me/+aUHeeIHnADJjZmE1
+- KodeKloud registration: https://engineer.kodekloud.com/signup?referral=6946cfc4dee212a47f43cdd4
+- AWS Console: https://console.aws.amazon.com/
+- Azure Portal: https://portal.azure.com/
+

@@ -54,3 +54,15 @@ See `../day-03-create-azure-vm-cli/README.md` for the CLI commands, PowerShell e
 ---
 
 **Security note:** Allowing SSH from everywhere (0.0.0.0/0) is insecure; prefer limiting SSH to your IP or using a jump/bastion host in production.
+
+## Resources & Links ✅
+- YouTube playlist: https://www.youtube.com/@TechCareerHubs
+- GitHub (repo, scripts): https://github.com/Consultantsrihari/100-Days-KodeKloud-MultiCloud-AWS-Azure-Hands-on-tasks-day1-day100
+- LinkedIn: https://www.linkedin.com/in/venkatasrihari/
+- Instagram: https://www.instagram.com/techcareerhubs/?hl=en
+- Website: https://techcareerhubs.com/
+- Telegram: https://t.me/+aUHeeIHnADJjZmE1
+- KodeKloud registration: https://engineer.kodekloud.com/signup?referral=6946cfc4dee212a47f43cdd4
+- AWS Console: https://console.aws.amazon.com/
+- Azure Portal: https://portal.azure.com/
+

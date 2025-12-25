@@ -53,3 +53,14 @@ This exercise is performed entirely in the AWS Console (console.aws.amazon.com).
 ---
 
 If you want, I can add: screenshots of the console steps, a short quiz (questions and answers are included), or a short checklist for an instructor guide.
+
+## Resources & Links ✅
+- YouTube playlist: https://www.youtube.com/@TechCareerHubs
+- GitHub (repo, scripts): https://github.com/Consultantsrihari/100-Days-KodeKloud-MultiCloud-AWS-Azure-Hands-on-tasks-day1-day100
+- LinkedIn: https://www.linkedin.com/in/venkatasrihari/
+- Instagram: https://www.instagram.com/techcareerhubs/?hl=en
+- Website: https://techcareerhubs.com/
+- Telegram: https://t.me/+aUHeeIHnADJjZmE1
+- KodeKloud registration: https://engineer.kodekloud.com/signup?referral=6946cfc4dee212a47f43cdd4
+- AWS Console: https://console.aws.amazon.com/
+- Azure Portal: https://portal.azure.com/
