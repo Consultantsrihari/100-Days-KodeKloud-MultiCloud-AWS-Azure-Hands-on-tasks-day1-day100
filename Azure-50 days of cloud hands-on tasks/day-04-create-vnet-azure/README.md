@@ -53,3 +53,10 @@ Notes
 - KodeKloud registration: https://engineer.kodekloud.com/signup?referral=6946cfc4dee212a47f43cdd4
 - AWS Console: https://console.aws.amazon.com/
 - Azure Portal: https://portal.azure.com/
+
+### Azure Docs (recommended)
+- Virtual networks overview: https://learn.microsoft.com/azure/virtual-network/virtual-networks-overview
+- Create a virtual network with Azure CLI (quickstart): https://learn.microsoft.com/azure/virtual-network/quick-create-cli
+- Subnets (concepts): https://learn.microsoft.com/azure/virtual-network/virtual-networks-overview#subnets
+- Azure CLI reference: https://learn.microsoft.com/cli/azure/
+.

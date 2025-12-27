@@ -43,4 +43,13 @@ If you'd like, I can also update the `QUESTION.md` and `ANSWERS.md` to match por
 - AWS Console: https://console.aws.amazon.com/
 - Azure Portal: https://portal.azure.com/
 
+### Azure Docs (recommended)
+- Virtual networks overview: https://learn.microsoft.com/azure/virtual-network/virtual-networks-overview
+- Create a VM with CLI (quickstart): https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-cli
+- SSH keys for Linux VMs: https://learn.microsoft.com/azure/virtual-machines/linux/ssh-keys
+- Azure CLI reference: https://learn.microsoft.com/cli/azure/
+
+### Your links
+- Add your links here: paste URLs and short descriptions.
+
 *Tell me if you'd like a shortened one-line footer instead.*

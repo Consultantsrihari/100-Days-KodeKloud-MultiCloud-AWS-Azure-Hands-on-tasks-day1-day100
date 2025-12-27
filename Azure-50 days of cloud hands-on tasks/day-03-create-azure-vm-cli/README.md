@@ -75,3 +75,11 @@ az network nsg delete -g $RG -n xfusion-nsg
 - AWS Console: https://console.aws.amazon.com/
 - Azure Portal: https://portal.azure.com/
 
+### Azure Docs (recommended)
+- Virtual machines (overview): https://learn.microsoft.com/azure/virtual-machines/
+- Create a Linux VM with CLI (quickstart): https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-cli
+- SSH keys for Linux VMs: https://learn.microsoft.com/azure/virtual-machines/linux/ssh-keys
+- Azure CLI reference: https://learn.microsoft.com/cli/azure/
+
+
+

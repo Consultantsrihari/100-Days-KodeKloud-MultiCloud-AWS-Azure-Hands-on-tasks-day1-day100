@@ -66,3 +66,11 @@ See `../day-03-create-azure-vm-cli/README.md` for the CLI commands, PowerShell e
 - AWS Console: https://console.aws.amazon.com/
 - Azure Portal: https://portal.azure.com/
 
+### Azure Docs (recommended)
+- Virtual machines (overview): https://learn.microsoft.com/azure/virtual-machines/
+- Create a Linux VM with CLI (quickstart): https://learn.microsoft.com/azure/virtual-machines/linux/quick-create-cli
+- Network Security Groups (NSG) overview: https://learn.microsoft.com/azure/virtual-network/network-security-groups-overview
+- Azure CLI reference: https://learn.microsoft.com/cli/azure/
+
+
+
