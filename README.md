@@ -10,7 +10,6 @@
 
 ---
 
-![alt text](<Screenshot 2025-12-21 203848.png>)
 
 ## 🔥 Why KodeKloud?
 KodeKloud focuses on real browser-based labs and task-driven learning — a practical fit for DevOps and Cloud engineering. Their challenges help you move from passive learning to real execution.
