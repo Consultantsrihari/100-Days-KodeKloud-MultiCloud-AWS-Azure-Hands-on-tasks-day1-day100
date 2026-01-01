@@ -1,8 +1,8 @@
-# Day 07 – Allocate Public IP Address in Azure
+# Day 08 – Attach Data Disk to Azure VM
 
 ## Objective
 
-Allocate a Public IP address named **datacenter-pip** in Azure.
+Attach the managed disk **nautilus-disk** to the virtual machine **nautilus-vm** in the **East US** region as a data disk.
 
 ---
 
@@ -11,17 +11,16 @@ Allocate a Public IP address named **datacenter-pip** in Azure.
 ### Steps
 
 1. Log in to the **Azure Portal**.
-2. In the search bar, type **Public IP addresses** and open it.
-3. Click **Create**.
-4. Select the appropriate **Subscription** and **Resource Group**.
-5. Enter **datacenter-pip** as the **Name**.
-6. Set **IP Version** to **IPv4**.
-7. Set **IP Assignment** to **Static**.
-8. Choose **Standard** SKU.
-9. Select the required **Region**.
-10. Click **Review + Create**, then **Create**.
+2. Search for **Virtual machines** and open it.
+3. Select the VM **nautilus-vm**.
+4. In the left menu, click **Disks**.
+5. Under **Data disks**, click **Attach existing disks**.
+6. Select the managed disk **nautilus-disk** from the list.
+7. Keep the **LUN** value auto-assigned.
+8. Click **Save**.
+9. Wait until the update completes and the VM shows **Succeeded** status.
 
-✅ The Public IP address **datacenter-pip** is successfully allocated.
+✅ The disk is now attached to the VM as a data disk.
 
 ---
 
@@ -31,27 +30,32 @@ Allocate a Public IP address named **datacenter-pip** in Azure.
 
 - Azure CLI installed
 - Logged in using `az login`
+- Correct subscription selected
 
 ### Command
 
 ```bash
-az network public-ip create \
+az vm disk attach \
   --resource-group <RESOURCE_GROUP> \
-  --name datacenter-pip \
-  --sku Standard \
-  --allocation-method Static
+  --vm-name nautilus-vm \
+  --name nautilus-disk
 ```
-🔹 Replace <RESOURCE_GROUP> with your Azure resource group name.
+🔹 Replace <RESOURCE_GROUP> with the VM’s resource group name.
 
 ### Verification
-
-```
-az network public-ip show \
+```az vm show \
   --resource-group <RESOURCE_GROUP> \
-  --name datacenter-pip
+  --name nautilus-vm \
+  --query "storageProfile.dataDisks"
 ```
-If the Public IP details are displayed, the allocation is successful.
 
-## Conclusion
 
-Public IP addresses in Azure provide external connectivity for cloud resources and are commonly used for production workloads, migration tasks, and internet-facing services.
+If nautilus-disk appears in the output, the disk is attached successfully.
+
+### Note (Inside VM)
+
+After attachment, the disk must be initialized, partitioned, and mounted inside the OS before use.
+
+###cConclusion
+
+Attaching managed disks allows Azure VMs to scale storage independently, making it ideal for migration and production workloads.
