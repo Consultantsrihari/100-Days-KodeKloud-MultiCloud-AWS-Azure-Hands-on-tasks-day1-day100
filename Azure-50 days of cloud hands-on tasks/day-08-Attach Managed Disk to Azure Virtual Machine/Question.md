@@ -1,17 +1,42 @@
-# Day 08 – Attach Data Disk to Azure VM
 
-## Task
+---
 
-The Nautilus DevOps team is migrating services to Azure using a phased approach for better control and optimization.
+## 📄 `Interview-QA.md` – Day 08 (Top 5)
 
-### Existing Resources
+```md
+# Day 08 – Azure VM Data Disk (Top 5 Interview Q&A)
 
-- Virtual Machine: **nautilus-vm**
-- Managed Disk: **nautilus-disk**
-- Region: **East US**
+## 1. What is a data disk in Azure?
 
-### Requirement
+**Answer:**  
+A data disk is a managed disk attached to a VM for application data storage, separate from the OS disk.
 
-Attach the managed disk **nautilus-disk** to the virtual machine **nautilus-vm** as a **data disk**.
-Ensure the VM initialization is completed before submission.
+---
 
+## 2. Can a managed disk be attached to multiple VMs?
+
+**Answer:**  
+No. A managed disk can be attached to **only one VM at a time**, unless using shared disks.
+
+---
+
+## 3. Does attaching a data disk require VM downtime?
+
+**Answer:**  
+No. Data disks can be attached to a **running VM** without stopping it.
+
+---
+
+## 4. What must be done after attaching a disk to a VM?
+
+**Answer:**  
+The disk must be **initialized, partitioned, formatted, and mounted** inside the operating system.
+
+---
+
+## 5. Why separate OS disks and data disks?
+
+**Answer:**  
+Separating disks improves **performance, scalability, backup flexibility, and recovery** during migrations and production operations.
+
+---
